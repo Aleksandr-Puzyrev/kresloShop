@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.container_header {
+    /* background: linear-gradient(to bottom,  #cadbe7, transparent); */
+    background: linear-gradient(0deg, rgba(223,217,217,1) 0%, rgba(202,219,231,1) 100%);
+    padding: 150px 50px;
+}
+
+.header_content {
+  color: white;
+  border-radius: 50px;
+  width: 700px;
+  height: 1100px;
+  padding: 60px 50px;
+
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+    gap: 20px;
+  background: linear-gradient(to bottom, #1d71a9, transparent);
+  font-size: 40px;
+
+}
+
+h1 {
+  font-size: 120px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.header_content_img_logo {
+   width: 300px;
+}
+
+.header_content_img_kreslo {
+    width: 900px;
+    margin-left: 100px;
+    margin-top: -120px;
+}
+
+.container_function img {
+    width: 100%;
+}
+
+.video {
+    width: 100%;
+}
+
+.container_mexanizm {
+    background-color: #c5c3be;
+    color: #463f3c;
+    padding: 100px 90px;
+}
+
+.container_mexanizm h2 {
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.container_mexanizm_description {
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.container_mexanizm_img_kreslo {
+    width: 700px;
+    margin-left: 200px;
+}
+
+.container_mexanizm_form {
+    width: 600px;
+    background-color: rgba(242, 242, 242, 0.8);
+    border-radius: 40px;
+    padding: 40px;
+    margin-bottom: -190px;
+}
+
+.container_mexanizm_form .title_rejim {
+    font-size: 45px;
+}
+
+.container_mexanizm_form .title {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.container_mexanizm_form .description {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.container_flex {
+    padding: 100px 90px;
+}
+
+.container_flex h2 {
+    color: #535353;
+}
+
+.container_flex h3 {
+    color: #898989;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.container_flex .array_kreslo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px 20px;
+}
+
+.container_flex .kreslo_item_img {
+    width: 300px;
+}
+
+.container_flex .kreslo_item{
+    text-align: center;
+    color: #535353;
+    font-size: 24px;
+}
